@@ -1,34 +1,48 @@
-# Gradle files
-.gradle/
-build/
+# 操作系统
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# 编辑器
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.swp
+*.swo
+*~
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
 
-# Keystore files
-*.jks
-*.keystore
+# 依赖
+node_modules/
+*.npm
+pip-log.txt
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# 构建
+dist/
+build/
+*.exe
+*.dll
 
-# Android Profiling
-*.hprof
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 临时文件
+.temp
+.tmp
+*.bak
+*.backup
+
+# IDE
+.vscode
+.idea
+*.iml
+
+# 系统文件
+.env.local
+.env.*.local
